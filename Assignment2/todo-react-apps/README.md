@@ -1,30 +1,40 @@
-React To-Do List Application
-🚀 Project Overview
-This repository hosts a robust and user-friendly To-Do List application built with React.js and styled with standard CSS. Designed for simplicity and efficiency, this application allows users to effectively manage their daily tasks, offering features for task creation, status tracking, and data persistence. It demonstrates a clean, component-based architecture for enhanced maintainability and scalability.
+# 📝 React To-Do List Application
 
-✨ Features
-Task Management: Easily add new tasks to your list.
+A clean and powerful **To-Do List Application** built with **React.js** and styled using plain **CSS**, designed to help users manage daily tasks efficiently. This app follows a modular component-based architecture for scalability and maintainability.
 
-Status Toggling: Mark tasks as complete or incomplete with a single click.
+---
 
-Task Removal: Delete tasks that are no longer needed.
+## 🚀 Project Overview
 
-Input Validation: Prevents the addition of empty or duplicate tasks, providing helpful feedback.
+This repository hosts a robust and user-friendly To-Do List application. It offers task creation, status tracking, and data persistence through browser local storage. Ideal for learning or demonstrating basic to intermediate-level React practices.
 
-Dynamic Filtering: View all tasks, only active tasks, or only completed tasks.
+---
 
-Flexible Sorting: Organize tasks by creation date (newest first), alphabetically (A-Z), or by completion status.
+## ✨ Features
 
-Local Persistence: All tasks are automatically saved to your browser's localStorage, ensuring your data remains intact even after closing or refreshing the browser.
+- **🧾 Task Management**: Easily add new tasks to your list.
+- **✅ Status Toggling**: Mark tasks as complete or incomplete with a single click.
+- **🗑️ Task Removal**: Delete tasks that are no longer needed.
+- **🛡️ Input Validation**: Prevents empty or duplicate tasks with helpful feedback.
+- **🔍 Dynamic Filtering**: View all tasks, only active tasks, or only completed tasks.
+- **🔃 Flexible Sorting**: Sort by creation date (newest first), A-Z, or completion status.
+- **💾 Local Persistence**: Tasks are stored in `localStorage`, so data stays even after refresh.
+- **📱 Responsive Design**: Works smoothly across all screen sizes and devices.
 
-Responsive Design: The user interface adapts seamlessly across various devices and screen sizes.
+---
 
-📸 Screenshots
-Here's a glimpse of the application's user interface:
+## 📸 Screenshots
 
-📁 Project Structure
-The application follows a standard React project layout, promoting modularity and separation of concerns:
+*(Add your screenshots inside a `/screenshots` folder and reference them here)*
 
+| Desktop View               
+|----------------------------
+| ![](.todo.png) | 
+
+---
+
+## 📁 Project Structure
+| ![](.todo.png) | 
 my-todo-app/
 ├── public/
 │   ├── index.html       // The main HTML file where the React app is mounted.
@@ -44,64 +54,51 @@ my-todo-app/
 ├── README.md            // This file.
 └── .gitignore           // Specifies intentionally untracked files to ignore by Git.
 
-⚙️ Getting Started
+## ⚙️ Getting Started
+
 Follow these steps to get a local copy of the project up and running on your machine.
 
-Prerequisites
-Make sure you have Node.js and npm (Node Package Manager) or Yarn installed on your system.
+### 🔧 Prerequisites
 
-Node.js: Download & Install Node.js (includes npm)
+Make sure you have **Node.js** and **npm** (Node Package Manager) or **Yarn** installed on your system.
 
-Yarn (Optional): npm install --global yarn
+- **Node.js**: [Download & Install Node.js](https://nodejs.org/) (includes npm)
 
-Installation
-Clone the repository:
 
-git clone https://github.com/Garvit1904/Celebal_Technologies_Garvit/tree/main/Assignment2
-cd my-todo-app
+## 📦 Installation
 
-Install dependencies:
-Using npm:
+### Clone the repository:
 
+```bash
+git clone https://github.com/Garvit1904/Celebal_Technologies_Garvit.git
+cd Celebal_Technologies_Garvit/Assignment2
+
+### 📦 Install Dependencies
+
+Using **npm**:
+
+```bash
 npm install
 
-Running the Application
-After installation, you can start the development server:
 
-Using npm:
+## 🎯 Usage
 
-npm start
+- **➕ Add a Task**  
+  Type your task into the input field and press **Enter** or click the **"Add Task"** button.
 
-This will open the application in your browser at http://localhost:3000 (or another available port). The app will automatically reload if you make any changes to the source code.
+- **✅ Mark as Complete**  
+  Click the **checkbox** next to a task to toggle its completion status.
 
-🎯 Usage
-Add a Task: Type your task into the input field and press Enter or click the "Add Task" button.
+- **🗑️ Remove a Task**  
+  Click the **trash can icon** next to a task to delete it from the list.
 
-Mark as Complete: Click the checkbox next to a task to toggle its completion status.
+- **📂 Filter Tasks**  
+  Use the **"All"**, **"Active"**, and **"Completed"** buttons to display tasks based on their status.
 
-Remove a Task: Click the trash can icon next to a task to delete it from the list.
+- **🔃 Sort Tasks**  
+  Use the **dropdown menu** to sort your tasks by:
+  - **Newest** (default)
+  - **A-Z** (alphabetical)
+  - **Status** (incomplete first)
 
-Filter Tasks: Use the "All", "Active", and "Completed" buttons to display tasks based on their status.
 
-Sort Tasks: Use the dropdown menu to sort your tasks by "Newest" (default), "A-Z" (alphabetical), or "Status" (incomplete first).
-
-💾 Persistence
-All tasks are automatically saved to your browser's localStorage. This means your task list will persist even if you close the browser tab or window and reopen it later. No server-side database is required for this functionality.
-
-🤝 Contributing
-Contributions are welcome! If you have suggestions for improvements or new features, please feel free to:
-
-Fork the repository.
-
-Create a new branch (git checkout -b feature/YourFeature).
-
-Make your changes.
-
-Commit your changes (git commit -m 'Add new feature').
-
-Push to the branch (git push origin feature/YourFeature).
-
-Open a Pull Request.
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
