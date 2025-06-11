@@ -72,6 +72,7 @@ Make sure you have **Node.js** and **npm** (Node Package Manager) or **Yarn** in
 ```bash
 git clone https://github.com/Garvit1904/Celebal_Technologies_Garvit.git
 cd Celebal_Technologies_Garvit/Assignment2
+```
 
 ### 📦 Install Dependencies
 
@@ -79,8 +80,17 @@ Using **npm**:
 
 ```bash
 npm install
+```
+### 🚀 Running the Application
 
+After installation, you can start the development server:
 
+Using **npm**:
+
+```bash
+npm start
+```
+This will open the application in your browser at http://localhost:3000 (or another available port). The app will automatically reload if you make any changes to the source code.
 ## 🎯 Usage
 
 - **➕ Add a Task**  
