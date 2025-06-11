@@ -22,10 +22,6 @@ Responsive Design: The user interface adapts seamlessly across various devices a
 📸 Screenshots
 Here's a glimpse of the application's user interface:
 
-todo.png
-
-
-
 📁 Project Structure
 The application follows a standard React project layout, promoting modularity and separation of concerns:
 
@@ -42,7 +38,7 @@ my-todo-app/
 │   │   ├── TaskList.jsx           // Component for rendering the list of tasks.
 │   │   ├── TaskItem.jsx           // Component for displaying a single task item.
 │   │   └── FilterSortControls.jsx // Component for filtering and sorting options.
-│   └── reportWebVitals.js // For measuring performance (standard CRA file).
+│   ├── reportWebVitals.js // For measuring performance (standard CRA file).
 │   └── setupTests.js      // For Jest/testing setup (standard CRA file).
 ├── package.json         // Defines project metadata, scripts, and dependencies.
 ├── README.md            // This file.
@@ -61,7 +57,7 @@ Yarn (Optional): npm install --global yarn
 Installation
 Clone the repository:
 
-git clone <https://github.com/Garvit1904/Celebal_Technologies_Garvit/tree/main/Assignment2>
+git clone https://github.com/Garvit1904/Celebal_Technologies_Garvit/tree/main/Assignment2
 cd my-todo-app
 
 Install dependencies:
@@ -89,3 +85,23 @@ Filter Tasks: Use the "All", "Active", and "Completed" buttons to display tasks 
 
 Sort Tasks: Use the dropdown menu to sort your tasks by "Newest" (default), "A-Z" (alphabetical), or "Status" (incomplete first).
 
+💾 Persistence
+All tasks are automatically saved to your browser's localStorage. This means your task list will persist even if you close the browser tab or window and reopen it later. No server-side database is required for this functionality.
+
+🤝 Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, please feel free to:
+
+Fork the repository.
+
+Create a new branch (git checkout -b feature/YourFeature).
+
+Make your changes.
+
+Commit your changes (git commit -m 'Add new feature').
+
+Push to the branch (git push origin feature/YourFeature).
+
+Open a Pull Request.
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
