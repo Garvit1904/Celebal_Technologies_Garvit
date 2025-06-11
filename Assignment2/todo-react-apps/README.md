@@ -34,7 +34,8 @@ This repository hosts a robust and user-friendly To-Do List application. It offe
 ---
 
 ## 📁 Project Structure
-| ![](.todo.png) | 
+|  | 
+```bash
 my-todo-app/
 ├── public/
 │   ├── index.html       // The main HTML file where the React app is mounted.
@@ -53,6 +54,7 @@ my-todo-app/
 ├── package.json         // Defines project metadata, scripts, and dependencies.
 ├── README.md            // This file.
 └── .gitignore           // Specifies intentionally untracked files to ignore by Git.
+```
 
 ## ⚙️ Getting Started
 
