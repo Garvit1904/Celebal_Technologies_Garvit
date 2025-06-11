@@ -25,11 +25,11 @@ This repository hosts a robust and user-friendly To-Do List application. It offe
 
 ## 📸 Screenshots
 
-*(Add your screenshots inside a `/screenshots` folder and reference them here)*
+
 
 | Desktop View               
 |----------------------------
-| ![](.todo.png) | 
+| ![](todo.png) | 
 
 ---
 
