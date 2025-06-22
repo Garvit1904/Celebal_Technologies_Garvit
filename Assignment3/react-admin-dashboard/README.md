@@ -59,21 +59,27 @@ This is a comprehensive web-based dashboard application built with **React**. It
     
 
 📸 Screenshots
---------------
+
 
 Dashboard Overview
-
+| ![](1.png) |
 User Management
-
-Kanban Board
-
+| ![](2.png) |
 Calendar View
+| ![](3.png) |
+Kanban Board
+| ![](4.png) | 
 
-📁 Project Structure
---------------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   my-dashboard-app/  ├── public/  │   ├── index.html          // The main HTML file where the React app is mounted.  │   └── favicon.ico         // Website icon displayed in the browser tab.  ├── src/  │   ├── App.jsx             // The core application component, managing global state and data flow.  │   ├── index.js            // The entry point for the React application, responsible for rendering the App component.  │   ├── App.css             // Contains global CSS styles for the application.  │   ├── components/         // Directory for reusable UI components (e.g., UserCard, TaskItem, EventDisplay).  │   │   ├── DashboardSummary.jsx    // Component for displaying overall metrics.  │   │   ├── UserList.jsx            // Component for listing and managing users.  │   │   ├── UserProfile.jsx         // Component for detailed user profiles.  │   │   ├── KanbanBoard.jsx         // Component for the visual task management board.  │   │   ├── Calendar.jsx            // Component for the calendar view and event management.  │   │   ├── Charts.jsx              // Component(s) for rendering analytics charts.  │   │   └── Notifications.jsx       // Component for toast notifications.  │   ├── hooks/              // Directory for custom React hooks (e.g., useLocalStorage).  │   ├── utils/              // Utility functions (e.g., date formatting, data helpers).  │   ├── contexts/           // React Contexts for global state management (e.g., AuthContext, DataContext).  │   ├── assets/             // Static assets like images or icons.  │   ├── reportWebVitals.js  // Standard Create React App (CRA) file for measuring performance.  │   └── setupTests.js       // Standard CRA file for Jest/testing setup.  ├── package.json            // Defines project metadata, essential scripts, and all required dependencies.  ├── README.md               // This comprehensive README file providing project documentation.  └── .gitignore              // Specifies intentionally untracked files and directories to be ignored by Git.   `
 
+
+
+
+## 📁 Project Structure
+|  | 
+```bash
+   my-dashboard-app/  ├── public/  │   ├── index.html          // The main HTML file where the React app is mounted.  │   └── favicon.ico         // Website icon displayed in the browser tab.  ├── src/  │   ├── App.jsx             // The core application component, managing global state and data flow.  │   ├── index.js            // The entry point for the React application, responsible for rendering the App component.  │   ├── App.css             // Contains global CSS styles for the application.  │   ├── components/         // Directory for reusable UI components (e.g., UserCard, TaskItem, EventDisplay).  │   │   ├── DashboardSummary.jsx    // Component for displaying overall metrics.  │   │   ├── UserList.jsx            // Component for listing and managing users.  │   │   ├── UserProfile.jsx         // Component for detailed user profiles.  │   │   ├── KanbanBoard.jsx         // Component for the visual task management board.  │   │   ├── Calendar.jsx            // Component for the calendar view and event management.  │   │   ├── Charts.jsx              // Component(s) for rendering analytics charts.  │   │   └── Notifications.jsx       // Component for toast notifications.  │   ├── hooks/              // Directory for custom React hooks (e.g., useLocalStorage).  │   ├── utils/              // Utility functions (e.g., date formatting, data helpers).  │   ├── contexts/           // React Contexts for global state management (e.g., AuthContext, DataContext).  │   ├── assets/             // Static assets like images or icons.  │   ├── reportWebVitals.js  // Standard Create React App (CRA) file for measuring performance.  │   └── setupTests.js       // Standard CRA file for Jest/testing setup.  ├── package.json            // Defines project metadata, essential scripts, and all required dependencies.  ├── README.md               // This comprehensive README file providing project documentation.  └── .gitignore              // Specifies intentionally untracked files and directories to be ignored by Git.   `
+```
 ⚙️ Getting Started
 ------------------
 
