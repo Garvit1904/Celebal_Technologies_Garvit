@@ -119,7 +119,7 @@ Ensure you have **Node.js** and either **npm** (Node Package Manager) or **Yarn*
 
 ### 📦 Installation
 
-1.  git clone \[https://github.com/Garvit1904/Celebal\_Technologies\_Garvit/tree/bc47bb4a3b7425ccbea0a9e70bf23c227eed1046/Assignment3/react-admin-dashboard\](https://github.com/Garvit1904/Celebal\_Technologies\_Garvit/tree/bc47bb4a3b7425ccbea0a9e70bf23c227eed1046/Assignment3/react-admin-dashboard)_(Replace \[YOUR\_REPOSITORY\_URL\_HERE\] with the actual URL of your repository.)_
+1.  git clone \[https://github.com/Garvit1904/Celebal\_Technologies\_Garvit/tree/bc47bb4a3b7425ccbea0a9e70bf23c227eed1046/Assignment3/react-admin-dashboard\](https://github.com/Garvit1904/Celebal\_Technologies\_Garvit/tree/bc47bb4a3b7425ccbea0a9e70bf23c227eed1046/Assignment3/react-admin-dashboard)
     
 2.  Using **npm**:npm install
     
