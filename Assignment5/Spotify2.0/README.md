@@ -65,7 +65,7 @@ src/
 1️⃣ **Clone the repository:**
 
 ```bash
-git clone https://github.com/Garvit1904/Celebal_Technologies_Garvit/tree/865eca17bf64f62e0c65b4dd7c8d2865fbc14a25/Assignment5/Spotify2.0
+git clone https://github.com/Garvit1904/Celebal_Technologies_Garvit/tree/main/Assignment5
 cd Spotify2.0
 ```
 
