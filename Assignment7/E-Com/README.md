@@ -62,14 +62,11 @@ npm run dev
 
 **Visit http://localhost:5173 to see the app running.**
 
-## 🌐 API Details
-This project uses the Shazam Core API from RapidAPI to fetch songs, artists, and lyrics. You must sign up on RapidAPI to get a free API key and add it to your .env as shown above.
 **🛠️ Built With**
 React
 Redux Toolkit
 React Router
 Tailwind CSS
-Shazam Core API (RapidAPI)
 Vite
 
 ## 📸 Screenshots
