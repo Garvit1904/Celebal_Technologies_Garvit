@@ -1,0 +1,5 @@
+{
+  "name": "GenDesk - AI-Powered Service Desk",
+  "description": "A modern, responsive service desk application for managing support tickets, featuring role-based access and AI-powered ticket categorization and solution suggestions.",
+  "requestFramePermissions": []
+}
