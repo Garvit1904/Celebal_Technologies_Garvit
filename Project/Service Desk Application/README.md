@@ -80,7 +80,7 @@ npm install
 Create a .env file in the project root:
 
 ```bash
-VITE_SHAZAM_CORE_RAPID_API_KEY=your_rapidapi_key_here
+ API_KEY: 'Your_API_Key'
 ```
 
 4️⃣ **Run the development server**
