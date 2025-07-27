@@ -30,11 +30,11 @@
 
 ---
 ## 📸 UI
-![alt text](/Screenshot/1.png)
-![alt text](/Screenshot/2.png)
-![alt text](/Screenshot/3.png)
-![alt text](/Screenshot/4.png)
-![alt text](/Screenshot/5.png)
+![alt text](./Screenshot/1.png)
+![alt text](./Screenshot/2.png)
+![alt text](./Screenshot/3.png)
+![alt text](./Screenshot/4.png)
+![alt text](./Screenshot/5.png)
 
 
 ## 🛠️ Tech Stack & Libraries
@@ -53,8 +53,8 @@
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/y/elegance-ecommerce.git
-    cd elegance-ecommerce
+    git clone https://github.com/Garvit1904/Celebal_Technologies_Garvit.git
+    cd Modern E-Commerce Platform
     ```
 
 2.  **Serve the Project**
